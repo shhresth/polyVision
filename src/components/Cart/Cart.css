@@ -1,0 +1,49 @@
+.c-cart{
+    min-height: 89vh;
+    padding: 3rem;
+    text-align: center;
+}
+.cartIMG{
+    width: 80%;
+    height: 80%;
+}
+.rButton{
+    height: 45px;
+    width: 85px;
+    border-radius: 10px;
+    border: 3px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #212529;
+    color: white;
+    border-color: rgb(140, 71, 204);
+}
+.eButton{
+    height: 55px;
+    width: 100px;
+    border-radius: 10px;
+    border: 3px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #212529;
+    color: white;
+    border-color: rgb(140, 71, 204);
+}
+
+.rButton:hover{
+    background-color: rgb(140, 71, 204);
+}
+.eButton:hover{
+    background-color: rgb(140, 71, 204);
+}
+
+@media screen and (max-width:750px) {
+    .c-cart{
+        padding: 1rem;
+    }
+}
+ Tr{
+    color: black ;
+}

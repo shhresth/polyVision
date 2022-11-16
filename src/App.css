@@ -1,0 +1,17 @@
+
+::-webkit-scrollbar{
+    display: none;
+}
+  
+.App {
+    overflow-y: scroll;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+.App::-webkit-scrollbar { /* WebKit */
+    width: 0;
+    height: 0;
+}
+.App{
+    background-color: #F0F0F0 !important;
+}

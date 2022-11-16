@@ -1,0 +1,242 @@
+
+.f{
+    height: 88vh;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    background-color: #F0F0F0;
+}
+.f-up{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 3rem;
+}
+.f-search{
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    box-shadow: 2px 5px 10px #888888;
+    color: black;
+    width: 100%;
+    /* border: solid; */
+    border-radius: 1.5rem;
+    border-color: rgb(140, 71, 204);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.input {
+    /* color: grey; */
+    color: black;
+    width: 100%;
+    height: 2rem;
+    border: none;
+    outline: none;
+    margin: 10px 0px;
+    font-size: 17px;
+    padding-left: 10px;
+    background: transparent;
+}
+.f-button {
+    width: 7rem;
+    height: 3rem;
+    margin-left: 1rem;
+    border-radius: 1rem;
+    background-color: #212529;
+    color: white;
+    border-width: 3px;
+    border-color: rgb(140, 71, 204);
+    cursor: pointer;
+    box-shadow: 2px 5px 10px #888888;
+    
+}
+.f-button:hover {
+    background-image: linear-gradient(90deg,rgb(89, 10, 89),violet);
+    border: none;
+}
+
+.f-bottom{
+    flex:6;
+    display: flex;
+    margin-top: 2rem;
+}
+
+.f-left{
+    flex: 1;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.f-title{  
+    display: flex;
+    justify-content: space-between;
+    color: rgb(140, 71, 204);
+}
+.reset{
+    cursor: pointer;
+}
+.reset:hover{
+    opacity: 0.5;
+}
+.f-border{
+    margin-top: 0.5rem;
+    border-bottom: 0.2rem solid rgb(205, 200, 200);
+}
+.f-filter-button{
+    display: none;
+    width: 6rem;
+    height: 2rem;
+    margin-left: 1rem;
+    border-radius: 1rem;
+    background-color: #212529;
+    color: white;
+    border-width: 3px;
+    border-color: rgb(140, 71, 204);
+    cursor: pointer;
+    box-shadow: 2px 5px 10px #888888;
+}
+.f-filter{
+    border-radius: 1rem;
+    /* border: 2px solid #EEE; */
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 2px 5px 10px #888888;
+    margin-top: 1rem;
+    height: 63vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.f-right{
+    flex: 3;
+}
+.f-cards{
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;padding: 16px;
+    /* border: 2px solid #EEE; */
+    background-color: #fff;
+    box-shadow: 2px 5px 10px #888888;
+    margin-top: 1rem;
+    height: 63vh;
+    overflow-y: auto;
+    padding: 2rem;
+}
+
+.c{
+    margin-left:3px;
+}
+
+
+.marks{
+    border: 1px solid rgb(205, 200, 200);
+    border-radius: 5px;
+    height: 3rem;
+    padding: 7px;
+    padding-left: 10px;
+    
+}
+
+.c{
+    display: flex;
+    flex-direction: column;
+}
+.c-label{
+    margin-left: 5px;
+    color: grey;
+}
+.f{
+    display: flex;
+}
+.f-close{
+    width: 100%;
+    display: none;
+    font-size: 1rem;
+    text-align: right;
+    cursor: pointer;
+}
+.h-col{
+    margin-bottom: 16px;
+    background-color: white;
+}
+
+
+.dataResults{
+    margin-top: 4rem;
+    width: 60%;
+    border-radius: 1rem;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0,0.35) 0px 5px 15px;
+    z-index: 999;
+    position:fixed;
+    margin-left: 2rem;
+    overflow:hidden;
+    overflow-y: auto;
+}
+
+.dataItem{
+    width: 100%;
+    height: 50px;
+    display: flex;align-items: center;
+    color: black;
+    cursor: pointer;
+    padding: 10px;
+}
+.dataItem:hover{
+    background-color:grey;
+}
+.lod{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width:750px) {
+    .f{
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+    .col-4{
+        width: 100%;
+    }
+    .f-bottom{
+        overflow-x: hidden;
+    }
+    .f-left{
+        flex: none;
+        width: 100%;
+    }
+    .f-close{
+        display: block;
+    }
+    .f-filter-button{
+        display: block;
+    }
+}
+
+@media screen and (max-width:1190px) {
+    h5{
+        /* font-size: 0.8rem; */
+    }
+    .f-right{
+        flex: 2;
+    }
+    .f-cards{
+        border: none;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .col-md-6{
+        width: 100%;
+    }
+
+}

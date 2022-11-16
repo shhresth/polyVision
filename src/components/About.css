@@ -1,0 +1,154 @@
+.about1 {
+    display: flex;
+}
+
+.left {
+    flex: 1;
+}
+
+.right {
+    flex: 1;
+}
+
+.head1 {
+    margin-top: 6rem;
+    font-weight: 700;
+    color: #2D1674;
+    color: #340744;
+    text-align: center;
+    font-size: 3.5rem;
+    padding-left: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.head2 {
+    margin: 4rem;
+    border: 10px solid #340744;
+    background-color: #E5CEF6;
+}
+
+.ah2 {
+    font-weight: 700;
+    text-align: center;
+    padding: 2rem;
+    color: #2D1674;
+    font-size: 2rem;
+}
+
+.Abimg {
+    height: 94vh;
+    width: 100%;
+}
+
+.main1 {
+    display: flex;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.firstMission {
+    flex: 1;
+    padding: 1rem;
+}
+
+.secondVision {
+    flex: 1;
+    padding: 1rem;
+}
+
+.thirdValues {
+    flex: 1;
+    padding: 1rem;
+}
+
+.about-item {
+    max-height: 450px;
+    color: gray;
+    padding: 7rem 3rem;
+    box-shadow: 0 0 9px rgba(0, 0, 0, .6);
+}
+
+.abh3 {
+    font-size: 2rem;
+    color: black;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.line {
+    width: 10rem;
+    background-color: rgb(62, 3, 62);
+    height: .5vh;
+    border: none;
+    margin: 0 auto;
+}
+
+.item-con {
+    margin-top: 1rem;
+    font-size: 1rem;
+
+}
+.icon{
+    font-size: 3rem;
+    margin: 0;
+}
+.about-item:hover{
+    background:  linear-gradient(90deg,rgb(89, 10, 89) ,rgb(249, 59, 249));
+    transition: .4s ;
+}
+ 
+
+
+@media screen and (max-width:1100px) {
+    .about1-image {
+        height: 64vh;
+    }
+    .left{
+        margin-top: 20rem;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    
+        .left{
+            margin-top: -5rem;
+        }
+       .about1{
+        flex-direction: column;
+       }
+    
+    .main1{
+        
+        flex-direction: column;
+    }
+}
+
+
+
+@media screen and (min-width:767px) and (max-width:991px) {
+   
+    .item-con {
+        padding-top: 4rem;
+    }
+    .item-heading h3 {
+        margin: 2rem;
+    }
+}
+@media screen and (max-width:767px) {
+    .main1{
+        flex-direction: column;
+        
+    }
+    #Vision{
+        margin-top: 5rem;
+    }
+    #Values{
+       margin-top: 5rem;
+    }
+    .about1{
+        margin-top: 2rem;
+    }
+    .about-item{
+        padding-bottom: 5rem;
+    }
+}
