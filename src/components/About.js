@@ -6,6 +6,13 @@ import BG from "./Assets/bg.jpeg";
 import Footer from "./Footer";
 // import BG from '../images/bg3.jpg'
 import './ourTeam.css'
+import { Helmet } from 'react-helmet-async'
+
+<Helmet>
+<title>About Us</title>
+<meta name="description" content='This page contains the name and Github profile of the devlopers'></meta>
+<link rel="canonical" href="/About" />
+</Helmet>
 
 
 const About = () => {

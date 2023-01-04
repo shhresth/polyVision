@@ -9,7 +9,7 @@ const Rubber = () => {
   return (
     <>
       <Helmet>
-  <title>Rubber Info Page</title>
+  <title>Rubber Engineering</title>
   <meta name="description" content='This web page Explains the user about Rubber Engineering and its Job Opportunites'></meta>
   <link rel="canonical" href="/Rubber" />
 </Helmet>

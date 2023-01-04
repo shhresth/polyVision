@@ -9,7 +9,7 @@ const Chemical = () => {
     <>
     
     <Helmet>
-  <title>Chemical Info Page</title>
+  <title>Chemical Engineering</title>
   <meta name="description" content='This web page Explains the user about Chemical Engineering and its Job Opportunites'></meta>
   <link rel="canonical" href="/Chemical" />
 </Helmet>

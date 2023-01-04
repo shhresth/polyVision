@@ -5,6 +5,12 @@ import './Profile.css'
 import {Link} from 'react-router-dom';
 import { list } from 'postcss';
 import { Helmet } from 'react-helmet-async';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { FaFontAwesome } from 'react-icons/fa';
+import {FaStar} from 'react-icons/fa'
+import {FaStarHalf} from 'react-icons/fa'
+
+
 
 function Profile() {
   // let currentclg = null
@@ -20,47 +26,47 @@ const nameFormating = (name) =>{
 }
 const rating = (num) =>{
 if(num<1){
-  return (<div><i class="fa fa-star-half-full"></i> {num}</div>)
+  return (<FaStarHalf/>+{num})
 }
 if(num === 1){
-  return (<div><i class="fa fa-star"></i> {num}</div>)
+  return (<FaStar/>+{num})
 }
 if(num === 2){
-  return (<div><i class="fa fa-star"></i><i class="fa fa-star"></i> {num}</div>)
+  return (<div><FaStar/><FaStar/>{num}</div>)
 }
 if(num === 3){
-  return (<div><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> {num}</div>)
+  return (<div><FaStar/><FaStar/><FaStar/>{num}</div>)
 }
 if(num === 4){
-  return (<div><i class="fa fa-star"></i><i class="fa fa-star"><i class="fa fa-star"></i><i class="fa fa-star"></i></i> {num}</div>)
+  return (<div><FaStar/><FaStar/><FaStar/><FaStar/>{num}</div>)
 }
 if(num === 5){
-  return (<div><i class="fa fa-star"></i><i class="fa fa-star"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></i> {num}</div>)
+  return (<div><FaStar/><FaStar/><FaStar/><FaStar/><FaStar/>{num}</div>)
 }
 if(num>=1 && num<=1.4){
-  return (<div><i class="fa fa-star"></i><i class="fa fa-star-half-full"></i> {num}</div>)
+  return (<div><FaStar/><FaStarHalf/>{num}</div>)
 }
 
 if(num>=1.5 && num<=2){
-  return (<div><i class="fa fa-star"></i><i class="fa fa-star"></i> {num}</div>)
+  return (<div><FaStar/><FaStar/>{num}</div>)
 }
 if(num>=2.1 && num<=2.5){
-  return (<div><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-full"></i> {num}</div>)
+  return (<div><FaStar/><FaStar/><FaStarHalf/>{num}</div>)
 }
 if(num>=2.6 && num<=3){
-  return (<div><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> {num}</div>)
+  return (<div><FaStar/><FaStar/><FaStar/>{num}</div>)
 }
 if(num>=3.1 && num<=3.5){
-  return (<div><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-full"></i> {num}</div>)
+  return (<div><FaStar/><FaStar/><FaStar/><FaStarHalf/>{num}</div>)
 }
 if(num>=3.6 && num<=4){
-  return (<div><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> {num}</div>)
+  return (<div><FaStar/><FaStar/><FaStar/><Fa icon="fa-solid fa-star" />{num}</div>)
 }
 if(num>=4.1 && num<=4.5){
-  return (<div><i class="fa fa-star"><i class="fa fa-star"></i></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-full"></i> {num}</div>)
+  return (<div><FaStar/><FaStar/><FaStar/><FaStar/><FaStarHalf/>{num}</div>)
 }
 if(num>=4.6 && num<=5){
-  return (<div><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> {num}</div>)
+  return (<div><FaStar/><FaStar/><FaStar/><FaStar/><FaStar/>{num}</div>)
 }
 else{
   return

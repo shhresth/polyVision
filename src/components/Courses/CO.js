@@ -10,7 +10,7 @@ export default class CO extends Component {
       <>
       
       <Helmet>
-  <title>Computer Info Page</title>
+  <title>Computer Engineering</title>
   <meta name="description" content='This web page Explains the user about Computer Engineering and its Job Opportunites'></meta>
   <link rel="canonical" href="/CO" />
       </Helmet>

@@ -31,6 +31,7 @@ import About from './About';
 import Cart from './Cart/Cart'
 import Profile from './Profile/Profile';
 import { useState } from 'react';
+import img from '../components/Assets/logonavbar.png'
 
 
 
@@ -42,7 +43,7 @@ function NavbarComp(props) {
       <div className="Nav">
         <Navbar collapseOnSelect  expand="lg" bg="dark" variant="dark" className="toggle">
       <Container id='bg-color'>
-        <Navbar.Brand href="#home" style={{fontFamily:"-moz-initial"}} className="Logo"><b>PolyVision</b></Navbar.Brand>
+        <Navbar.Brand href="https://polyvision.tech/" style={{fontFamily:"-moz-initial"}} className="Logo"><b><img id='logoimg' src={img}/></b></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
@@ -71,7 +72,7 @@ function NavbarComp(props) {
             <Nav className='mr-auto'>
           {/* <button type="button" className="Sbtn" data-bs-toggle="modal" data-bs-target="#exampleModal">Sign up</button> */}
           <Nav.Link className='cButton' as={Link} to={"/Cart"}>
-          <div type="button" className="Sbtn" >Fav {cart.length}
+          <div type="button" id= "Sbtn" className="Sbtn" >Fav {cart.length}
           </div>
           </Nav.Link>
          </Nav>

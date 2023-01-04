@@ -9,7 +9,7 @@ const Electrical = () => {
     <>
     
     <Helmet>
-  <title>Electrical Info Page</title>
+  <title>Electrical Engineering</title>
   <meta name="description" content='This web page Explains the user about Electrical Engineering and its Job Opportunites'></meta>
   <link rel="canonical" href="/Electrical" />
 </Helmet>

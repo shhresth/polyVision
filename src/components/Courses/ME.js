@@ -9,7 +9,7 @@ export default class ME extends Component {
     return (
       <>
       <Helmet>
-  <title>Mechanical Info Page</title>
+  <title>Mechanical Engineering</title>
   <meta name="description" content='This web page Explains the user about Mechanical Engineering and its Job Opportunites'></meta>
   <link rel="canonical" href="/ME" />
 </Helmet>      

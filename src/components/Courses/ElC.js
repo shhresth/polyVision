@@ -9,7 +9,7 @@ const ElC = () => {
     <>
 
 <Helmet>
-  <title>Electronic Info Page</title>
+  <title>Electronic Engineering</title>
   <meta name="description" content='This web page Explains the user about Electronics Engineering and its Job Opportunites'></meta>
   <link rel="canonical" href="/EIC" />
 </Helmet>

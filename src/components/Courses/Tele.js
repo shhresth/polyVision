@@ -9,7 +9,7 @@ const Tele = () => {
     <>
 
 <Helmet>
-  <title>Electronics and Telecommunication Info Page</title>
+  <title>Electronics and Telecommunication Engineering</title>
   <meta name="description" content='This web page Explains the user about Electronics and Telecommunication Engineering and its Job Opportunites'></meta>
   <link rel="canonical" href="/Tele" />
 </Helmet>

@@ -67,3 +67,14 @@
     background-image: linear-gradient(90deg,rgb(89, 10, 89),violet);
     color: white;
 }
+
+#Sbtn{
+    margin: auto;
+}
+#logoimg{
+    height: 50px;
+    
+  /* put value of image height as your need */
+  /* float: left; */
+  margin-left: 1rem;
+}

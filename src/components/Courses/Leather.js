@@ -9,7 +9,7 @@ const Leather = () => {
     <>
     
     <Helmet>
-  <title>Leather Info Page</title>
+  <title>Leather Engineering</title>
   <meta name="description" content='This web page Explains the user about Leather Engineering and its Job Opportunites'></meta>
   <link rel="canonical" href="/Leather" />
 </Helmet>

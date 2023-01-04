@@ -24,7 +24,7 @@ function IndividualIntervalsExample() {
 
 
 <Helmet>
-  <title>Homepage</title>
+  <title>Polyvision</title>
   <meta name="description" content='polyVision makes the gruesome task of finding Diploma Colleges Easy and more personalized.It contains the Data of all the Polytechnic Colleges in Maharashtra So that you get the college which you like!'></meta>
   <link rel="canonical" href="/" />
 </Helmet>

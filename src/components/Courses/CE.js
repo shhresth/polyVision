@@ -9,7 +9,7 @@ export default class CE extends Component {
     return (
       <>
       <Helmet>
-  <title>CE Info Page</title>
+  <title>Civil Engineering</title>
   <meta name="description" content='This web page Explains the user about Civil Engineering and its Job Opportunites'></meta>
   <link rel="canonical" href="/CE" />
 </Helmet>

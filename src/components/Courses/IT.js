@@ -11,7 +11,7 @@ export default class IT extends Component {
       <>
       
       <Helmet>
-  <title>IT Info Page</title>
+  <title>Information Technology</title>
   <meta name="description" content='This web page Explains the user about Information Technology and its Job Opportunites'></meta>
   <link rel="canonical" href="/IT" />
 </Helmet>

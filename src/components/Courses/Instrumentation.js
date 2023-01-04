@@ -9,7 +9,7 @@ const Instrumentation = () => {
     <>
 
     <Helmet>
-  <title>Instrumentation Info Page</title>
+  <title>Instrumentation Engineering</title>
   <meta name="description" content='This web page Explains the user about Instrumentation Engineering and its Job Opportunites'></meta>
   <link rel="canonical" href="/Instrumentation" />
     </Helmet>
