@@ -60,7 +60,7 @@ if(num>=3.1 && num<=3.5){
   return (<div><FaStar/><FaStar/><FaStar/><FaStarHalf/>{num}</div>)
 }
 if(num>=3.6 && num<=4){
-  return (<div><FaStar/><FaStar/><FaStar/><Fa icon="fa-solid fa-star" />{num}</div>)
+  return (<div><FaStar/><FaStar/><FaStar/><FaStar/>{num}</div>)
 }
 if(num>=4.1 && num<=4.5){
   return (<div><FaStar/><FaStar/><FaStar/><FaStar/><FaStarHalf/>{num}</div>)

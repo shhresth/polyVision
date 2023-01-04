@@ -19,9 +19,9 @@ const Footer = () => {
             <div className="first">
                 <h4 className='fh4'><b>Polyvision</b></h4>
                 <p className='fp'>
-                    We are here to help the students who have just passed their
+                    We are here to help the students who have recently passed their
                     SSC exams and are looking to kickstart their career in more
-                    professional courses rather than ony theoratical knowledge.
+                    professional courses rather than having only theoratical knowledge.
                 </p>
             </div>
             <div className="second">

@@ -48,8 +48,8 @@ function NavbarComp(props) {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             
-            <Nav.Link as={Link} to={"/"} className="Comp"><IoIosHome />Home</Nav.Link>
-            <Nav.Link as={Link} to={"/FYC"} className="Comp"><AiFillFilter/>Find Your College</Nav.Link>
+            <Nav.Link as={Link} to={"/"} className="Comp"><IoIosHome /> Home</Nav.Link>
+            <Nav.Link as={Link} to={"/FYC"} className="Comp"><AiFillFilter/> Find Your College</Nav.Link>
             <NavDropdown title=" Diploma Courses" id="basic-nav-dropdown" className="Comp">
               <NavDropdown.Item as={Link} to={"/CO"}>Computer Engineering</NavDropdown.Item>
               <NavDropdown.Item as={Link} to={"/ME"}>Mechanical Engineering</NavDropdown.Item>
@@ -65,7 +65,7 @@ function NavbarComp(props) {
               <NavDropdown.Item as={Link} to={"/Automobile"}>Automobile Engineering</NavDropdown.Item>
               
               </NavDropdown>
-            <Nav.Link as={Link} to={"/About"} className="Comp" ><RiTeamFill/>About us</Nav.Link>
+            <Nav.Link as={Link} to={"/About"} className="Comp" ><RiTeamFill/> About us</Nav.Link>
             
           
             </Nav>
